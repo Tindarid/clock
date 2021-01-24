@@ -14,7 +14,7 @@ public class EventStatisticLastHour implements EventStatistic {
     private final static long MINUTES_IN_HOUR = 60;
     private final static long SECONDS_IN_HOUR = 60 * MINUTES_IN_HOUR;
 
-    EventStatisticLastHour(Clock clock) {
+    public EventStatisticLastHour(Clock clock) {
         this.clock = clock;
     }
 
